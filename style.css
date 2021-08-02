@@ -1,0 +1,51 @@
+body{
+    background-size: cover;
+}
+
+#header{
+    font-size: 23px;
+    width: 100%;
+    margin: 0;
+    background-color: orange;
+    padding: 10px;
+    color: white;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+
+#number_of_objects, #status{
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+    background: orange;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;;
+    width: 30%;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 23px 10px rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+
+#start{
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 7px;
+    width: 85px;
+}
+
+#copy_right_footer{
+    line-height: 3;
+    position: fixed;
+    color: rgb(107, 107, 107);
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(185, 185, 185);
+    text-align: center;
+    box-shadow: 0px 0px 23px 10px black;
+}
+
+canvas{
+    border: 2px ridge;
+    border-radius: 5px;
+    margin-top: 130px;
+    box-shadow: 0px 0px 23px 10px black;
+}
